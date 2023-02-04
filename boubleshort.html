@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> İÇİNDEKİLER </title>
+</head>
+<body bgColor="lightblue" text="darkblue">
+<script language="JavaScript">
+var a=[34,5,11,9,76,43,77,789,51,10];
+var i;
+var t,f;
+document.write("<h3>"+"SIRALAMADAN ONCEKI DIZI"+"</h3>");
+document.write("<h3>"+a.join(" ")+"</h3>");
+f=0;
+while(f==0){f=1;
+for(i=0;i<=a.length-1;i++)
+{if(a[i]>a[i+1])
+{t=a[i];
+a[i]=a[i+1];
+a[i+1]=t;
+f=0;
+}}}
+document.write("<h3>"+"SIRALAMA ISLEMINDEN SONRAKİ DIZI"+"</h3>");
+document.write("<h3>"+a.join(" ")+"</h3>");
+</script>
+</body>
+</html>
